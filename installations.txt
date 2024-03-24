@@ -1,0 +1,7 @@
+npm init
+npm i express mongodb mongoose cors jsonwebtoken cookie-parser dotenv bcryptjs nodemon
+//In package.json file after description before main add
+"type": "module"
+//in package.json file in "scripts" after test add
+"start": "node index.js",
+"start-dev": "nodemon index.js"
