@@ -5,3 +5,10 @@ npm i express mongodb mongoose cors jsonwebtoken cookie-parser dotenv bcryptjs n
 //in package.json file in "scripts" after test add
 "start": "node index.js",
 "start-dev": "nodemon index.js"
+
+//how to start server?
+cd backend
+npm run start-dev
+
+//install stripe 
+npm i stripe
