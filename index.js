@@ -16,7 +16,7 @@ const port = process.env.PORT || 8000;
 
 // Configure CORS to allow requests from your frontend domain
 const corsOptions = {
-    origin: ['https://front-end-i-clinic.vercel.app', 'http://localhost:3000'], // Add your frontend URLs here
+    origin: ['https://front-end-i-clinic.vercel.app', 'http://localhost:3000', 'https://front-end-git-master-i-clinic.vercel.app'], // Add your frontend URLs here
     methods: 'GET,POST,PUT,DELETE',
     credentials: true, // Allow cookies and other credentials
     optionsSuccessStatus: 200
